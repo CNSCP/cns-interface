@@ -1,0 +1,30 @@
+{
+  "name": "cns-interface",
+  "version": "1.0.1",
+  "description": "CNS Interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CNSCP/cns-interface.git"
+  },
+  "keywords": [
+    "cns",
+    "sdk",
+    "transport",
+    "interface"
+  ],
+  "author": "ian@padi.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CNSCP/cns-interface/issues"
+  },
+  "homepage": "https://github.com/CNSCP/cns-interface#readme",
+  "dependencies": {
+    "cns-sdk": "^1.0.1",
+    "ws": "^8.12.0"
+  }
+}
